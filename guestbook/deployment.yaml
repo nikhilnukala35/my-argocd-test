@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: my-custom-guestbook
 spec:
-  replicas: 3  # We want 3 copies for high availability so changed from 2 to 3
+  replicas: 4  # We want 4 copies for high availability so changed from 3 to 4
   selector:
     matchLabels:
       app: custom-guestbook
